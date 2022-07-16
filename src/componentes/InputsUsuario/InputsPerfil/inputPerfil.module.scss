@@ -1,0 +1,50 @@
+@import '../../../styles/_variaveis.scss';
+
+.perfil{
+    &__titulo{
+        color: $azul-oceano;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    &__input{
+        background-color: $branco;
+        mix-blend-mode: normal;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border: transparent;
+        border-radius: 6px;
+        width: 28rem;
+        height: 4.8rem;
+        color: $cinza-apenas;
+        &::placeholder{
+            font-family: $fonte-primaria;
+            color: $cinza-claro;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            text-align: left;
+        }
+    }
+}
+
+#idSobre{
+    height: 17.6rem;
+}
+
+// talvez mudar aqui
+@media screen and (min-width: 768px){
+
+    .perfil{
+        &__input{
+            width: 49.2rem;
+        }
+    }
+
+    #idSobre{
+        height: 10.4rem;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+
+}

@@ -1,0 +1,35 @@
+@import '../../styles/_variaveis.scss';
+
+.cadastro{
+    &__usuario{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5em;
+        margin-top: 7em;
+    }
+    &__titulos{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        color: $cinza-apenas;
+    }
+    display:flex; 
+    flex-direction: column;
+    flex: 1; 
+    // background-image: url("../../assets/svgs/Forma3.svg");
+    background-position: bottom 2em left;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+// talvez mudar aqui
+@media screen and (min-width: 768px){
+ 
+    
+}
+
+@media screen and (min-width: 1444px){
+
+
+}

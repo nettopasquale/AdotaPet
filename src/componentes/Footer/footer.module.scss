@@ -1,0 +1,22 @@
+@import '../../styles/_variaveis.scss';
+
+.footer__container{
+    background-color:$verde-oliva;
+    text-align: center;
+    padding: 3em;
+}
+
+.footer__texto{
+    font-size: 1.6rem;
+    color: $branco;
+}
+
+@media screen and (min-width: 768px){
+
+
+}
+
+@media screen and (min-width: 1444px){
+
+
+}

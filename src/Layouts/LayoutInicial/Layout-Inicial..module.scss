@@ -1,0 +1,34 @@
+@import '../../styles/_variaveis.scss';
+
+.bg__inicial{
+    display:flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color:$azul-oceano;
+    background-image: url("../../assets/svgs/Forma1.svg"), 
+        url("../../assets/svgs/Forma2Mobile.svg"), url("../../assets/svgs/catDogsvgMobile.svg");
+    background-position: top left, center right, bottom -1.8em center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+// talvez mudar aqui
+@media screen and (min-width: 768px){
+    .bg__inicial{
+        background-image: url("../../assets/svgs/Forma1Tablet.svg"), 
+            url("../../assets/svgs/Forma2Tablet.svg"), url("../../assets/svgs/catDogTablet.svg");
+            // background-position: top left, center right, bottom 5em center; 
+        background-position: top left, center right, bottom -1.8em center;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+    .bg__inicial{
+        background-image: url("../../assets/svgs/Forma1Desktop.svg"), 
+            url("../../assets/svgs/Forma2Desktop.svg"), url("../../assets/svgs/catDogsvgDesktop.svg");
+            // background-position: top left, center right, bottom 5em center; 
+        background-position: top left, center right, bottom -1.8em center;
+    }
+
+}

@@ -1,0 +1,39 @@
+@import '../../styles/_variaveis.scss';
+
+.inicial{
+    &__descricao{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 1em;
+    }
+    &__sessao{
+        margin-top: 7rem;
+        flex: 1;
+        
+    }
+}
+
+.logo{
+    margin-bottom: -.6rem;
+}
+
+.tela{
+    &__titulo{
+        color: $azul-oceano;
+        text-align: center;
+        font-family: $fonte-secundaria;
+        font-weight: 500;
+        font-size: 2.6rem;
+        margin-bottom: .6rem;
+    }
+    &__texto{
+        color: $azul-oceano;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        max-width: 15.8em;
+        margin-bottom: .4em;
+    }
+}

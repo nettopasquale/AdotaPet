@@ -1,0 +1,56 @@
+@import '../../styles/_variaveis.scss';
+
+.perfil{
+    &__sessao{
+        display: flex;
+        flex: 1;
+        align-content: center;
+        justify-content: center;
+    }
+    &__form{
+        display: flex;
+        flex-flow: column;
+        gap: 1em;
+        background-color: $cinza-inputs;
+        border-radius: 10px;
+        padding: 2em 2em;
+    }
+}
+
+
+.perfil__titulo_Principal{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    color: $cinza-apenas;
+}
+
+.perfil__usuario{
+    max-width: 80px;
+    max-height: 80px;
+    align-self: center;
+}
+
+.perfil__texto{
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: $vermelho-tomate;
+}
+
+
+// talvez mudar aqui
+@media screen and (min-width: 768px){
+    .perfil__form{
+        padding: 6em 3em;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+    .perfil__form{
+        padding: 8em 3em;
+    }
+
+}

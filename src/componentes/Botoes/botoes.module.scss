@@ -1,0 +1,44 @@
+@import '../../styles/_variaveis.scss';
+
+.botao{
+    &__container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1em;
+        gap: 1em;
+    }
+    &__cadastro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $vermelho-tomate;
+        color: $branco;
+        border-radius: 6px;
+        border: transparent;
+        width: 18rem;
+        height: 4rem;
+        font-weight: 600;
+        font-size: 1.6rem;
+        text-decoration: none;
+        text-align: center;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+@media screen and (min-width: 768px){
+    .botoao__cadastro{
+        width: 34.4rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+    .botoao__cadastro{
+        width: 36.2rem;
+    }
+
+}

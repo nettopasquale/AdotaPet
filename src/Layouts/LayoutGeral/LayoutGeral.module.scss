@@ -1,0 +1,31 @@
+@import '../../styles/_variaveis.scss';
+
+.bg__geral{
+    display:flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+    flex: 1; 
+    background-image: url("../../assets/svgs/Forma1.svg"), 
+    url("../../assets/svgs/Forma3.svg");
+    background-position: top left, bottom 2em left;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+// talvez mudar aqui
+@media screen and (min-width: 768px){
+    .bg__geral{
+        background-image: url("../../assets/svgs/Forma1Tablet.svg"), 
+        url("../../assets/svgs/Forma3.svg");
+        background-position: top left, bottom 2em left;
+    }
+}
+
+@media screen and (min-width: 1444px){
+    .bg__geral{
+        background-image: url("../../assets/svgs/FormaTeste.svg"), 
+        url("../../assets/svgs/Forma3.svg");
+        background-position: top left, bottom 2em left;
+
+    }
+}

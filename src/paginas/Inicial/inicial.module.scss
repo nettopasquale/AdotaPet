@@ -1,0 +1,86 @@
+@import '../../styles/_variaveis.scss';
+
+.inicial{
+    &__descricao{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 1em;
+    }
+    &__sessao{
+        margin-top: 7rem;
+        flex: 1;
+    }
+
+}
+
+.logo{
+    margin-bottom: -.6rem;
+}
+
+.tela{
+    &__titulo{
+        color: $branco;
+        text-align: center;
+        font-family: $fonte-secundaria;
+        font-weight: 500;
+        font-size: 2.6rem;
+        margin-bottom: .6rem;
+    }
+    &__texto{
+        color: $branco;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        max-width: 15.8em;
+        margin-bottom: .4em;
+    }
+}
+
+.botao{
+    &__container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1em;
+        gap: 1em;
+    }
+    &__cadastro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $vermelho-tomate;
+        color: $branco;
+        border-radius: 6px;
+        width: 18rem;
+        height: 4rem;
+        font-weight: 600;
+        font-size: 1.6rem;
+        text-decoration: none;
+        text-align: center;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+// talvez mudar aqui
+
+@media screen and (min-width: 768px){
+
+    .inicial__sessao{
+        margin-top: 32.8rem;
+    }
+
+    .botoao__cadastro{
+        width: 34.4rem;
+        height: 4.8rem;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+
+
+
+}

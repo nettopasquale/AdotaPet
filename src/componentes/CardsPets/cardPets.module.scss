@@ -1,0 +1,68 @@
+@import '../../styles/_variaveis.scss';
+
+.card{
+    &__pet{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: $cinza-inputs;
+        padding: 0.5em 3.2em;
+        width: 100%;
+        max-width: 34.4rem;
+        max-height:19.6rem;
+        gap: 2em;
+    }
+    &__descricao{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__titulo{
+        align-self: baseline;
+        color: $azul-oceano;
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    &__texto{
+        text-align: left;
+        color: #444444;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        &_cidade{
+            // talvez aqui n funcione
+            align-self: baseline;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.mensagem{
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: baseline;
+        width: 13.4rem;
+    }
+    &__texto{
+        text-align: left;
+        color: $cinza-apenas;
+        line-height: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .card__pet{
+        padding: 2.4em 0.1em;
+    }
+
+}
+
+@media screen and (min-width: 1444px){
+
+    .card__pet{
+        padding: 2.4em 1em;
+    }
+
+}

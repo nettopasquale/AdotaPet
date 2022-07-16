@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Routes, Route } from 'react-router-dom';
 import './App.css';
+import Cadastro from './paginas/Cadastro';
+import HomeUser from './paginas/HomeUser';
+import Inicial from './paginas/Inicial';
+import Login from './paginas/Login';
+import Mensagem from './paginas/Mensagem';
+import PerfilUsuario from './paginas/PerfilUsuario';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route path='/' element={<Inicial />}/>
+        <Route path='/cadastro' element={<Cadastro />}/>
+        <Route path='/login' element={<Login />}/>
+        <Route path='/adotar' element={<HomeUser />}/>
+        <Route path='/mensagem' element={<Mensagem />}/>
+        <Route path='/perfil' element={<PerfilUsuario />}/>
+      </Routes>
   );
 }
 

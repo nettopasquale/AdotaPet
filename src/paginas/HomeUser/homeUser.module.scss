@@ -1,0 +1,30 @@
+@import '../../styles/_variaveis.scss';
+
+.Cards{
+    &__container{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        flex: 1;
+        &:last-child{
+            align-self: flex-start;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px){
+
+
+}
+
+@media screen and (min-width: 1444px){
+
+    .Cards__container{
+        gap: 1em 1em;
+    }
+    
+
+}
