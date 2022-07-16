@@ -4,7 +4,7 @@ Esse projeto foi criado utilizando React como principal ferramenta.
 
 ## Scripts disponíveis:
 
-In the project directory, you can run:
+Nesse projeto, você pode executar:
 
 ### `npm start`
 
