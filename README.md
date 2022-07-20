@@ -20,11 +20,4 @@ A página irá recarregar com as edições no código.\
 - SASS e Modules
 - normalize.css
 
-Instalados mas não utilizados:
-- Json Server (usar para refatorar os componentes de cards de pets?)
-- classnames 
-- phosphor-react (usar para ícones e evitar importar svgs?)
-- styled-components (refatorar alguns componentes?)
-- Tailwind.css e postcss (caso haja necessidade de substituir o SASS e modules)
-
 ## 
